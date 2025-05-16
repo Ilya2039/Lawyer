@@ -36,8 +36,6 @@ menu_keyboard = ReplyKeyboardMarkup(
     keyboard=[
         [KeyboardButton(text="Найти инфу в договоре")],
         [KeyboardButton(text="Получить шаблон")],
-        #[KeyboardButton(text="⚖️ Проверить на нарушения в ГК РФ")],  # 👈 добавлено
-        #[KeyboardButton(text="📚 Определить тип договора")],  # 👈 добавлено
         [KeyboardButton(text="Проверить на нарушения в ГК РФ")]
     ],
     resize_keyboard=True
